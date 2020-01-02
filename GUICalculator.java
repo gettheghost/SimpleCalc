@@ -19,10 +19,10 @@ public class GUICalculator extends JFrame {
 
 	public GUICalculator () {
 		JPanel panel1 = new JPanel();
-		JLabel label1 = new JLabel("Test Label");
+		JLabel label1 = new JLabel("Welcome");
 		
 		panel1.add(label1);
-		panel1.setBackground(Color.cyan);
+		panel1.setBackground(Color.gray);
 		this.add(panel1);
 		
 		JButton button1 = new JButton("button1");
